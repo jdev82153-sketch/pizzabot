@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PizzaBot – Demonstração</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="phone">
+  <header>
+    <div class="avatar">🍕</div>
+    <div class="who"><strong>PizzaBot · Pizzaria Demo</strong><small>online · demonstração</small></div>
+    <button id="reset" title="Reiniciar conversa" aria-label="Reiniciar conversa">↻</button>
+  </header>
+  <div class="banner">Demonstração com cardápio fictício. Nenhum pedido real é criado e não há conexão com o WhatsApp.</div>
+  <section id="chat" aria-live="polite"><div id="typing" class="msg in" hidden>digitando…</div></section>
+  <div id="quick"></div>
+  <form id="form"><input id="input" autocomplete="off" placeholder="Digite uma mensagem" aria-label="Mensagem"><button aria-label="Enviar">➤</button></form>
+</main>
+<script src="menu.js"></script>
+<script src="bot.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
